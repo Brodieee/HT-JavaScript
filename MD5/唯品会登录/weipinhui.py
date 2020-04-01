@@ -17,6 +17,5 @@ def get_js_function(js_path, func_name, func_args):
 
 if __name__ == '__main__':
     # 给个star吧
-    passwd = get_js_function('weipinhui.js', 'password', 'scrapy@qq.com')
+    passwd = get_js_function('weipinhui.js', 'password', '111111')
     print(passwd)
-    print('欢迎Star！')
